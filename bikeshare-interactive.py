@@ -219,6 +219,7 @@ def display_raw(df):
     """Raw data is displayed upon request by the user."""
 
  # Hint: df.iloc[index1:index2]
+ # Useful hint
 
     display_start = 0
 

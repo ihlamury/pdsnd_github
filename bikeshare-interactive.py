@@ -1,3 +1,4 @@
+# First interactive project
 import time
 import pandas as pd
 import numpy as np
@@ -192,6 +193,7 @@ def user_stats(df):
     count_usertype = df['User Type'].value_counts()
     print('User tpye count:\n', count_usertype.to_string())
 
+    # Use try & except
     # TO DO: Display counts of gender
     try:
         gender_count = df['Gender'].value_counts()
